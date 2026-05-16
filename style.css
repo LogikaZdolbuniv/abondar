@@ -1,0 +1,220 @@
+body {
+margin: 0%;
+font-family: Arial, sans-serif;
+color: antiquewhite;
+background-color: blanchedalmond;
+}
+
+
+.navbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 14PX 50PX;
+background-color: black;
+color: antiquewhite;
+}
+
+.logo{
+font-size: small;
+font-weight: bolder;
+}
+
+.nav-menu a {
+color: brown;
+text-decoration: solid;
+margin-left: 30px;
+transition: none;
+}
+
+.hero {
+    height: 67vh;
+    background: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)),
+    url("https://lviv.media/static/content/files/e/c9/31828241b0b4d6397bd8e0f9ae5c1c9e.jpg")
+    no-repeat center/cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 10px black;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 5px black;
+}
+
+/* Кнопка */
+.btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+    transform: scale(1.05);
+}
+
+/* Блок про нас */
+.content-block {
+    padding: 70px 20px;
+    text-align: center;
+    color: #5c2c2c;
+}
+
+.content-block h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content-block p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Футер */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.product-container {
+justify-content: space-between;
+text-align: center;
+flex-wrap: wrap;
+ gap:25px;
+    padding: 20px;
+color: #ff1493;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+margin-left: 20px;
+ box-shadow: 5px 5px 20px rgba(241, 11, 126);
+  
+
+}
+h1,h2{
+color: #ff539b;
+text-align: center;
+}
+
+.product-card {
+ 
+    background-color: white;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #ff1493;
+    text-shadow:6px 6px  6px rgb(238, 141, 189)
+    
+}
+.product-card img {
+    width: 100%;        
+    height: 150px;
+}
+
+
+       .form-card {
+            background-color: transparent;
+            border: 2px solid var(--border-color);
+            border-radius: 40px;
+            padding: 40px;
+            width: 600px;
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.2);
+        }
+
+        .form-card h2 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            color: #ff00b3;
+        }
+
+        .input-wrapper {
+            position: relative;
+        }
+
+        .input-wrapper i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #7a27b1;
+        }
+
+        .input-wrapper input {
+            width: 100%;
+            background: transparent;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 12px 12px 12px 45px; /* Відступ зліва для іконки */
+            color: white;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .input-wrapper input::placeholder {
+            color: #7b6a8f;
+        }
+
+        .input-wrapper input:focus {
+            border-color: var(--accent-pink);
+            box-shadow: 0 0 8px rgba(217, 0, 255, 0.3);
+        }
+
+        /* Кнопка */
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(90deg, #7b2cbf 0%, #c700b3 100%);
+            color: white;
+            font-family: 'MedievalSharp', cursive; /* Специфічний шрифт з картинки */
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .submit-btn:hover {
+            transform: scale(1.02);
+            filter: brightness(1.1);
+        }
+label {
+    color: #000000;
+}   
